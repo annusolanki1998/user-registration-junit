@@ -25,4 +25,8 @@ public class UserRegistration {
     public boolean validatePassword(String password) {
         return Pattern.matches("(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}", password);
     }
+
+    public boolean validateMultipleEmailId(String multipleEmailId) {
+        return Pattern.matches("[a-z \\d -.]+[@][a-z \\d]+[.][a-z]{3,}", multipleEmailId);
+    }
 }
