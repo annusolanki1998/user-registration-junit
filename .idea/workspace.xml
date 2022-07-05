@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9a5e03-cff8-454d-81ec-6ee27e25d41c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" afterDir="false" />
     </list>
@@ -33,14 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.validateMultipleEmailIdForNegativeScenarioTest">
-    <configuration name="UserRegistrationTest.validateMobileNumberForNegativeScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean compile org.pitest:pitest-maven:mutationCoverage" />
+      <command value="mvn clean compiler test org.pitest:pitest-maven:mutationCoverage" />
+      <command value="mvn clean compile test org.pitest:pitest-maven:mutationCoverage" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.validateFirstNameForPositiveScenarioTest">
+    <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user-registration-junit" />
       <extension name="coverage">
         <pattern>
@@ -50,13 +61,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="validateMobileNumberForNegativeScenarioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.validateEmailIdForNegativeScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-registration-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="validateEmailIdForNegativeScenarioTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.validateMultipleEmailIdForNegativeScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.validateEmailIdForPositiveScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user-registration-junit" />
       <extension name="coverage">
         <pattern>
@@ -66,13 +92,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="validateMultipleEmailIdForNegativeScenarioTest" />
+      <option name="METHOD_NAME" value="validateEmailIdForPositiveScenarioTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.validateMultipleEmailIdForPositiveScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.validateFirstNameForPositiveScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user-registration-junit" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +108,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="validateMultipleEmailIdForPositiveScenarioTest" />
+      <option name="METHOD_NAME" value="validateFirstNameForPositiveScenarioTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.validatePasswordForNegativeScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.validateLastNameForPositiveScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user-registration-junit" />
       <extension name="coverage">
         <pattern>
@@ -98,23 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="validatePasswordForNegativeScenarioTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTest.validatePasswordForPositiveScenarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-registration-junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="validatePasswordForPositiveScenarioTest" />
+      <option name="METHOD_NAME" value="validateLastNameForPositiveScenarioTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRegistrationTest.validateMultipleEmailIdForNegativeScenarioTest" />
-        <item itemvalue="JUnit.UserRegistrationTest.validateMultipleEmailIdForPositiveScenarioTest" />
-        <item itemvalue="JUnit.UserRegistrationTest.validatePasswordForNegativeScenarioTest" />
-        <item itemvalue="JUnit.UserRegistrationTest.validatePasswordForPositiveScenarioTest" />
-        <item itemvalue="JUnit.UserRegistrationTest.validateMobileNumberForNegativeScenarioTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.validateFirstNameForPositiveScenarioTest" />
+        <item itemvalue="JUnit.UserRegistrationTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.validateEmailIdForNegativeScenarioTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.validateEmailIdForPositiveScenarioTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.validateLastNameForPositiveScenarioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -151,20 +161,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java</url>
-          <line>76</line>
-          <properties class="com.bridgelabz.UserRegistrationTest" method="validateMultipleEmailIdForPositiveScenarioTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
