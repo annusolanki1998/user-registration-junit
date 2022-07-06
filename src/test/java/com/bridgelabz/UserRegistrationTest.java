@@ -14,59 +14,58 @@ public class UserRegistrationTest {
 
     @Test
     public void validateFirstNameForPositiveScenarioTest() {
-        boolean actualOutput = userRegistration.validateFirstName("Annu");
+        boolean actualOutput = userRegistration.validateFirstName.validate("Annu");
         Assert.assertTrue(actualOutput);
     }
 
     @Test(expected = UserRegistrationException.class)
     public void validateFirstNameForNegativeScenarioTest() {
-        userRegistration.validateFirstName("annu");
+        userRegistration.validateFirstName.validate("annu");
     }
 
     @Test
     public void validateLastNameForPositiveScenarioTest() {
-        boolean actualOutput = userRegistration.validateLastName("Kumari");
+        boolean actualOutput = userRegistration.validateLastName.validate("Kumari");
         Assert.assertTrue(actualOutput);
     }
 
     @Test(expected = UserRegistrationException.class)
     public void validateLastNameForNegativeScenarioTest() {
-        userRegistration.validateLastName("kumari");
+        userRegistration.validateLastName.validate("kumari");
     }
 
     @Test
     public void validateEmailIdForPositiveScenarioTest() {
-        boolean actualOutput = userRegistration.validateEmailId("annusinghraj1998@gmail.com");
+        boolean actualOutput = userRegistration.validateEmailId.validate("annusinghraj1998@gmail.com");
         Assert.assertTrue(actualOutput);
     }
 
     @Test(expected = UserRegistrationException.class)
     public void validateEmailIdForNegativeScenarioTest() {
-        userRegistration.validateEmailId("annu.com");
+        userRegistration.validateEmailId.validate("annu.com");
     }
 
 
     @Test
     public void validateMobileNumberForPositiveScenarioTest() {
-        boolean actualOutput = userRegistration.validateMobileNumber("+91 7003265406");
+        boolean actualOutput = userRegistration.validateMobileNumber.validate("+91 7003265406");
         Assert.assertTrue(actualOutput);
     }
 
     @Test(expected = UserRegistrationException.class)
     public void validateMobileNumberForNegativeScenarioTest() {
-        userRegistration.validateLastName("+91 700326540678");
-
+        userRegistration.validateLastName.validate("+91 700326540678");
     }
 
     @Test
     public void validatePasswordForPositiveScenarioTest() {
-        boolean actualOutput = userRegistration.validatePassword("Annu@4998");
+        boolean actualOutput = userRegistration.validatePassword.validate("Annu@4998");
         Assert.assertTrue(actualOutput);
     }
 
     @Test(expected = UserRegistrationException.class)
     public void validatePasswordForNegativeScenarioTest() {
-        userRegistration.validatePassword("Annu4998");
+        userRegistration.validatePassword.validate("Annu4998");
 
     }
 }
